@@ -1,7 +1,5 @@
 # vagrant_tform_srv
 
-`vagrant init`
-
 `vagrant up`
 
 `vagrant ssh`
