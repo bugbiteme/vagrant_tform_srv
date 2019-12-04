@@ -16,9 +16,9 @@ curl "https://d1vvhvl2y92vvt.cloudfront.net/awscli-exe-linux-x86_64.zip" -o "aws
 unzip awscliv2.zip
 sudo ./aws/install
 sudo ln -s /usr/local/bin/aws2 /usr/local/bin/aws
-mkdir .aws
-cp /vagrant/config .aws/
-cp /vagrant/credentials .aws/
+
+# Install Azure CLI
+curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 
 # Clone ec2 terraform project
 #git clone https://github.com/bugbiteme/ec2-terraform.git
