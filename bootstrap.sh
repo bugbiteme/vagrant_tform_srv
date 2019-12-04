@@ -3,6 +3,7 @@
 
 sudo apt-get update
 sudo apt-get install unzip
+sudo apt-get install ansible
 
 # Install terraform
 wget https://releases.hashicorp.com/terraform/0.12.16/terraform_0.12.16_linux_amd64.zip
@@ -20,7 +21,7 @@ cp /vagrant/config .aws/
 cp /vagrant/credentials .aws/
 
 # Clone ec2 terraform project
-git clone https://github.com/bugbiteme/ec2-terraform.git
+#git clone https://github.com/bugbiteme/ec2-terraform.git
 
 
 
