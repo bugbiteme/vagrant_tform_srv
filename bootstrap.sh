@@ -2,8 +2,7 @@
 
 
 sudo apt-get update
-sudo apt-get install unzip
-sudo apt-get install ansible
+sudo apt-get install unzip ansible lynx
 
 # Install terraform
 wget https://releases.hashicorp.com/terraform/0.12.17/terraform_0.12.17_linux_amd64.zip
